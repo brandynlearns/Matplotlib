@@ -1,0 +1,10 @@
+# use the inline backend to generate the plots within the browser
+%matplotlib inline
+
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+
+mpl.style.use('ggplot')  # optional: for ggplot-like style
+
+# check for latest version of Matplotlib
+print('Matplotlib version: ', mpl.__version__) # >= 2.0.0
